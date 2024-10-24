@@ -4,7 +4,7 @@ const Subcription = () => {
   return (
     <section className="bg-secondary/70">
       <div className="wrapper py-20 flex flex-col gap-4">
-        <h1 className="text-3xl text-center font-bold text-white w-[400px] mx-auto sm:w-[600px] md:text-4xl">
+        <h1 className="text-3xl text-center font-bold text-white mx-auto sm:w-[600px] md:text-4xl">
           JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO
         </h1>
         <p className="w-[80%] mx-auto text-center text-white/70">
@@ -14,7 +14,7 @@ const Subcription = () => {
           <input
             type="text"
             placeholder="Add your email here"
-            className="w-full focus:outline-none"
+            className="w-full focus:outline-none bg-transparent gap-2"
           />
           <Button>SEND</Button>
         </form>
