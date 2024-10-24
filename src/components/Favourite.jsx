@@ -10,11 +10,11 @@ const Favourite = () => {
     <section className="py-10 lg:py-10">
       <div className="wrapper">
         <h1 className="mb-10 font-bold text-4xl text-center relative w-fit mx-auto sm:mx-0">
-          Young&#39;s Favourite
+          YOUNG&#39;S FAVOURITE
           <Image
             src={Overlay1}
             alt=""
-            className="absolute w-20 -right-1 bottom-1 -z-10 -rotate-3"
+            className="absolute w-20 right-10 sm:-right-1 bottom-1 -z-10 -rotate-3"
           />
         </h1>
         <div className="grid gap-10 sm:grid-cols-2 justify-center">
